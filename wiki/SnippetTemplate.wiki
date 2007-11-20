@@ -1,6 +1,7 @@
 #summary Short summary of the snippet
 
 ||*Name*||Snippet name||
+||*Location*||/trunk/blah/ble||
 ||*Version*||x.x.x||
 ||*Type*||idapython/idc/plugin||
 ||*Author*||author - authoriz@tion.com||
