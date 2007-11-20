@@ -1,10 +1,10 @@
 #summary Short summary of the snippet
 
-|*Name*|Snippet name|
-|*Version*|x.x.x|
-|*Type*|idapython/idc/plugin|
-|*Author*|author - authoriz@tion.com|
-|*Requirements*|...|
+||*Name*||Snippet name||
+||*Version*||x.x.x||
+||*Type*||idapython/idc/plugin||
+||*Author*||author - authoriz@tion.com||
+||*Requirements*||...||
 
 == Description ==
 Longer description of the snippet.
@@ -16,4 +16,4 @@ How to use the snippet.
   * Some things still to be done on the snippet
 
 
-/* NOTE: please make sure to add the 'Featured' and relevant 'Type-*' labels */
+{{{/* NOTE: please make sure to add the 'Featured' and relevant 'Type-*' labels */}}}
