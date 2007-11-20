@@ -1,5 +1,5 @@
-#summary Script to parseMSVC output exception handlers.
-#labels Snippet,Type-idapython
+#summary Script to parse MSVC output exception handlers.
+#labels Featured,Type-idapython
 
 = Description =
 
@@ -7,11 +7,10 @@ An idapython script (based on igorsk's idc scripts) which parses exception handl
 
 The script currently only supports C++ EH (no SEH). There is also only limited support for functions which use EH prolog/epilog functions.
 
-
 = Usage =
 In ida, make sure the cursor is on a {{{mov eax, fs:0}}} line, and run the script. The EH code for the current function should be parsed, stack-variables should be re-named and typed, and the beginning of catch blocks should be commented.
 
-= ToDo =
+= Todo =
   * Implement SEH parsing
   * Improve prolog/epilog handling
   * Function boundary fixup
