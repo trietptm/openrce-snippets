@@ -1,5 +1,5 @@
-#summary IDAPython script to MSVC output exception handlers.
-#labels Featured,idapython
+#summary Script to parseMSVC output exception handlers.
+#labels Snippet,Type-idapython
 
 = Description =
 
