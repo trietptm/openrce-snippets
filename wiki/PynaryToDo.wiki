@@ -6,12 +6,12 @@ pynary is a fairly ambitious project, aiming to mesh (and merge) the many existi
 This is a list of the various tasks that are currently planned, along with the name of the person who is working on the task.
 
 || *Category* || *Task* || *Name* ||
-||Core||Generate call-graph for functions in unlinked COFF objects||c1de0x||
-||Core||Generate call-graph for functions in linked PE files||c1de0x||
-||Core||Generate data-xrefs for data used in unlinked COFF objects||||
-||Core||Generate data-xrefs for data used in linked PE files||||
+||Core||Generate call-graph for functions in object files (COFF)||c1de0x||
+||Core||Generate call-graph for functions in executable files (PE)||c1de0x||
+||Core||Generate data-xrefs for data used in object files (COFF)||||
+||Core||Generate data-xrefs for data used in executable files (PE)||||
 ||Core||Apply structure definitions to data|||| 
-||Hueristic||Match functions from different graphs (unlinked, linked) using graph isomorphism with 0 false positives||c1de0x||
+||Hueristic||Match functions from different graphs (e.g. object vs executable) using graph isomorphism with 0 false positives||c1de0x||
 ||Core||Load/Store graphs||||
 ||Interop||Export data to IDA||||
 ||CompilerSpecific||Demangle gcc symbol names||hochidsp||
