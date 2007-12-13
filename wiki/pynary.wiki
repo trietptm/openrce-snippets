@@ -1,5 +1,5 @@
 #summary A python binary analysis tool
-#labels Featured
+#labels Featured,Type-standalone
 
 ||*Name*||pynary||
 ||*Location*||/trunk/standalone/pynary||
@@ -25,14 +25,14 @@ pynary will hopefully become a powerful framework for binary code analysis.
 The initial goal is to finish implementation of the signature matching goal using graph isomorphism and an extensible 'write-your-own-heuristic' model to tweak matching for particular targets. I also intend to identify standard library global constants and structure where possible.
 
 Once the initial goal is acheived, I look forward to implementing a number of cool features:
-* stack frame analysis
-* un-inliner
-* exception handling parsing/analysis
-* 'functionally equivalent' matching
-* c++ template function matching
-* meta-data transfer between IDBs
-* c++ class reconstruction (with/without RTTI)
-* ...
+  * stack frame analysis
+  * un-inliner
+  * exception handling parsing/analysis
+  * 'functionally equivalent' matching
+  * c++ template function matching
+  * meta-data transfer between IDBs
+  * c++ class reconstruction (with/without RTTI)
+  * ...
 
 At the moment, the bulk of the work has been to add COFF object support to ero's pefile. This functionality is not yet merged into the mainstream release of pefile, but will hopefully make it in when stable enough.
 
