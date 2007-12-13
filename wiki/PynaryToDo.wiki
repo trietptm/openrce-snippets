@@ -11,6 +11,9 @@ This is a list of the various tasks that are currently planned, along with the n
 ||Core||Generate data-xrefs for data used in unlinked COFF objects||||
 ||Core||Generate data-xrefs for data used in linked PE files||||
 ||Core||Apply structure definitions to data|||| 
+||Hueristic||Match functions from different graphs (unlinked, linked) using graph isomorphism with 0 false positives||c1de0x||
+||Core||Load/Store graphs||||
+||Interop||Export data to IDA||||
 ||CompilerSpecific||Demangle gcc symbol names||hochidsp||
 ||CompilerSpecific||Demangle MSVC symbol names||archangel.Petroleum||
 ||CompilerSpecific||Definitions for recognition of calling convention||||
@@ -20,5 +23,7 @@ This is a list of the various tasks that are currently planned, along with the n
 ||CompilerSpecific||Match common gcc prolog/epilogs||||
 ||CompilerSpecific||Parse exception handling code, structures||||
 ||CompilerSpecific||Parse RTTI||||
+||Heuristic||Reconstruct c++ class definitions from vtables and constructors||||
+
 
 If you'd like to take on a task, or suggest a new task, please contact c1de0x.
