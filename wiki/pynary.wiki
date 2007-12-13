@@ -47,7 +47,4 @@ Anyhow, feel free to contact me (email, irc, xmpp) with ideas and comments. Anyo
 == Usage ==
 
 == Todo ==
-  * Lots! Contact c1de0x for details.
-
-
-{{{/* NOTE: please make sure to add the 'Featured' and relevant 'Type-*' labels */}}}
+See PynaryToDo
