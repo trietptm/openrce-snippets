@@ -26,5 +26,6 @@ This is a list of the various tasks that are currently planned, along with the n
 ||Heuristic||Reconstruct c++ class definitions from vtables and constructors||||
 ||PlatformSpecific||Parse ELF object and executable files||demonic.software||
 ||PlatformSpecific||Parse macho object and executable files||||
-
+||Core||Scan for ascii and unicode strings||||
+||Core||Scan for GUIDs||||
 If you'd like to take on a task, or suggest a new task, please contact c1de0x.
