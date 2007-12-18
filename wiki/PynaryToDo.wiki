@@ -24,7 +24,7 @@ This is a list of the various tasks that are currently planned, along with the n
 ||CompilerSpecific||Parse exception handling code, structures||||
 ||CompilerSpecific||Parse RTTI||||
 ||Heuristic||Reconstruct c++ class definitions from vtables and constructors||||
-||PlatformSpecific||Parse ELF object and executable files||||
+||PlatformSpecific||Parse ELF object and executable files||demonic.software||
 ||PlatformSpecific||Parse macho object and executable files||||
 
 If you'd like to take on a task, or suggest a new task, please contact c1de0x.
