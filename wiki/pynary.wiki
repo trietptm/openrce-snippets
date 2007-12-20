@@ -44,7 +44,8 @@ This graph can be traversed by matching algorithms.
 
 Anyhow, feel free to contact me (email, irc, xmpp) with ideas and comments. Anyone who want's to get their hands dirty is more than welcome.
 
-== Usage ==
+== Credits ==
+Extra special credit goes to cybereagle for coming up with the awesome name. Its a *py*thon bi*nary* analysis framework! Thanks Cybereagle, you're the official god-coder. 
 
 == Todo ==
 See PynaryToDo
