@@ -1,4 +1,4 @@
-#summary Short summary of the snippet
+#summary Exception Monitor for Windows
 #labels Featured,Type-standalone
 
 ||*Name*||ExcpHook||
