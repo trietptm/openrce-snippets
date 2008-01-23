@@ -21,5 +21,12 @@ ExcpHook.exe -h for help.
 
 Just execute ExcpHook for standard use.
 
+
+== Build instructions ==
+Use DDK to compile the driver (I've used 3790.1830). A common way is to run "nmake" in the directory of the driver. Then copy the objchk_wxp_x86\i386\ExcpHook.sys file to the parent directory.
+
+Then use a C++ compiler (I've used MinGW G++ 3.4.5) to compile ExcpHook.cpp. In case of MinGW running "make" in the ExcpHook directory is sufficient. 
+
+
 == Todo ==
   * See todo.txt in the ExcpHook directory
